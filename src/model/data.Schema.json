@@ -1,0 +1,109 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "classes": {
+            "type": "array",
+            "items": {
+                "additionalProperties": false,
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "id": {
+                        "type": "string"
+                    },
+                    "semester": {
+                        "type": "string"
+                    },
+                    "course": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "content": {
+                        "type": "string"
+                    },
+                    "grading": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalItems": false,
+                            "properties": {
+                                "min": {
+                                    "type": "number"
+                                },
+                                "max": {
+                                    "type": "number"
+                                },
+                                "grade": {
+                                    "type": "number"
+                                }
+                            },
+                            "required": [
+                                "min",
+                                "grade",
+                                "max"
+                            ]
+                        }
+                    },
+                    "tasks": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "name": {
+                                    "type": "string"
+                                },
+                                "description": {
+                                    "type": "string"
+                                },
+                                "maxPoints": {
+                                    "type":"number"
+                                },
+                                "pointsNeeded": {
+                                    "type": "number"
+                                }
+                            }
+                        }
+                    },
+                    "students": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "id": {
+                                    "type": "number"
+                                },
+                                "points": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "number"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "required": [
+                    "name",
+                    "id",
+                    "semester",
+                    "course",
+                    "description",
+                    "content",
+                    "grading",
+                    "tasks",
+                    "students"
+                ]
+            }
+        }
+    },
+    "required": [
+        "classes"
+    ]
+}

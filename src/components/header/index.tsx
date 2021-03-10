@@ -1,20 +1,17 @@
 import { FunctionalComponent, h } from 'preact';
-import { Link } from 'preact-router/match';
+import Match, { Link } from 'preact-router/match';
 import style from './style.css';
+import ImgUrl from "../../logo.png"
 
+console.log(ImgUrl)
 const Header: FunctionalComponent = () => {
     return (
         <header class={style.header}>
-            <h1>Preact App</h1>
+            <img src={ImgUrl}></img>
             <nav>
+                <a href="mailto:lukas.binder@students.fhv.at">Contact</a>
                 <Link activeClassName={style.active} href="/">
                     Home
-                </Link>
-                <Link activeClassName={style.active} href="/profile">
-                    Me
-                </Link>
-                <Link activeClassName={style.active} href="/profile/john">
-                    John
                 </Link>
             </nav>
         </header>

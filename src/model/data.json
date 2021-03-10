@@ -1,0 +1,679 @@
+{
+    "$schema": "./data.Schema.json",
+    "classes": [
+        {
+            "name": "Class 1",
+            "id": "c1",
+            "semester": "WS2020",
+            "course": "ITB",
+            "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+            "content": "Inhalt der Lehrveranstaltung",
+            "grading": [
+                {
+                    "min": 0,
+                    "max": 49.9,
+                    "grade": 5
+                },
+                {
+                    "min": 50,
+                    "max": 62.9,
+                    "grade": 4
+                },
+                {
+                    "min": 63,
+                    "max": 74.9,
+                    "grade": 3
+                },
+                {
+                    "min": 75,
+                    "max": 86.9,
+                    "grade": 2
+                },
+                {
+                    "min": 87,
+                    "max": 100,
+                    "grade": 1
+                }
+            ],
+            "tasks": [
+                {
+                    "name": "Übung 1",
+                    "description": "Beschreibung der Übung 1",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Übung 2",
+                    "description": "Beschreibung der Übung 2",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Übung 3",
+                    "description": "Beschreibung der Übung 3",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Klausur",
+                    "description": "Beschreibung der Klausur",
+                    "maxPoints": 70,
+                    "pointsNeeded": 35
+                }
+            ],
+            "students": [
+                {
+                    "id": 1910247006,
+                    "points": [8,9,5,60]
+                },
+                {
+                    "id": 1910247007,
+                    "points": [1,2,3,30]
+                },
+                {
+                    "id": 1910247007,
+                    "points": [10,10,10,40]
+                }
+            ]
+        },
+        {
+            "name": "Class 2",
+            "id": "c2",
+            "semester": "WS2020",
+            "course": "ITB",
+            "description": "Class 2 description",
+            "content": "Inhalt der Lehrveranstaltung",
+            "grading": [
+                {
+                    "min": 0,
+                    "max": 49.9,
+                    "grade": 5
+                },
+                {
+                    "min": 50,
+                    "max": 62.9,
+                    "grade": 4
+                },
+                {
+                    "min": 63,
+                    "max": 74.9,
+                    "grade": 3
+                },
+                {
+                    "min": 75,
+                    "max": 86.9,
+                    "grade": 2
+                },
+                {
+                    "min": 87,
+                    "max": 100,
+                    "grade": 1
+                }
+            ],
+            "tasks": [
+                {
+                    "name": "Übung 1",
+                    "description": "Beschreibung der Übung 1",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Übung 2",
+                    "description": "Beschreibung der Übung 2",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Übung 3",
+                    "description": "Beschreibung der Übung 3",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Klausur",
+                    "description": "Beschreibung der Klausur",
+                    "maxPoints": 70,
+                    "pointsNeeded": 35
+                }
+            ],
+            "students": [
+                {
+                    "id": 1910247006,
+                    "points": [8,9,5,60]
+                },
+                {
+                    "id": 1910247007,
+                    "points": [1,2,3,30]
+                },
+                {
+                    "id": 1910247007,
+                    "points": [10,10,10,40]
+                }
+            ]
+        },
+        {
+            "name": "Class 3",
+            "id": "c3",
+            "semester": "WS2020",
+            "course": "ITB",
+            "description": "Class 3 description",
+            "content": "Inhalt der Lehrveranstaltung",
+            "grading": [
+                {
+                    "min": 0,
+                    "max": 49.9,
+                    "grade": 5
+                },
+                {
+                    "min": 50,
+                    "max": 62.9,
+                    "grade": 4
+                },
+                {
+                    "min": 63,
+                    "max": 74.9,
+                    "grade": 3
+                },
+                {
+                    "min": 75,
+                    "max": 86.9,
+                    "grade": 2
+                },
+                {
+                    "min": 87,
+                    "max": 100,
+                    "grade": 1
+                }
+            ],
+            "tasks": [
+                {
+                    "name": "Übung 1",
+                    "description": "Beschreibung der Übung 1",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Übung 2",
+                    "description": "Beschreibung der Übung 2",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Übung 3",
+                    "description": "Beschreibung der Übung 3",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Klausur",
+                    "description": "Beschreibung der Klausur",
+                    "maxPoints": 70,
+                    "pointsNeeded": 35
+                }
+            ],
+            "students": [
+                {
+                    "id": 1910247006,
+                    "points": [8,9,5,60]
+                },
+                {
+                    "id": 1910247007,
+                    "points": [1,2,3,30]
+                },
+                {
+                    "id": 1910247007,
+                    "points": [10,10,10,40]
+                }
+            ]
+        },
+        {
+            "name": "Class 3",
+            "id": "c3",
+            "semester": "WS2020",
+            "course": "ITB",
+            "description": "Class 3 description",
+            "content": "Inhalt der Lehrveranstaltung",
+            "grading": [
+                {
+                    "min": 0,
+                    "max": 49.9,
+                    "grade": 5
+                },
+                {
+                    "min": 50,
+                    "max": 62.9,
+                    "grade": 4
+                },
+                {
+                    "min": 63,
+                    "max": 74.9,
+                    "grade": 3
+                },
+                {
+                    "min": 75,
+                    "max": 86.9,
+                    "grade": 2
+                },
+                {
+                    "min": 87,
+                    "max": 100,
+                    "grade": 1
+                }
+            ],
+            "tasks": [
+                {
+                    "name": "Übung 1",
+                    "description": "Beschreibung der Übung 1",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Übung 2",
+                    "description": "Beschreibung der Übung 2",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Übung 3",
+                    "description": "Beschreibung der Übung 3",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Klausur",
+                    "description": "Beschreibung der Klausur",
+                    "maxPoints": 70,
+                    "pointsNeeded": 35
+                }
+            ],
+            "students": [
+                {
+                    "id": 1910247006,
+                    "points": [8,9,5,60]
+                },
+                {
+                    "id": 1910247007,
+                    "points": [1,2,3,30]
+                },
+                {
+                    "id": 1910247007,
+                    "points": [10,10,10,40]
+                }
+            ]
+        },
+        {
+            "name": "Class 3",
+            "id": "c3",
+            "semester": "WS2020",
+            "course": "ITB",
+            "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+            "content": "Inhalt der Lehrveranstaltung",
+            "grading": [
+                {
+                    "min": 0,
+                    "max": 49.9,
+                    "grade": 5
+                },
+                {
+                    "min": 50,
+                    "max": 62.9,
+                    "grade": 4
+                },
+                {
+                    "min": 63,
+                    "max": 74.9,
+                    "grade": 3
+                },
+                {
+                    "min": 75,
+                    "max": 86.9,
+                    "grade": 2
+                },
+                {
+                    "min": 87,
+                    "max": 100,
+                    "grade": 1
+                }
+            ],
+            "tasks": [
+                {
+                    "name": "Übung 1",
+                    "description": "Beschreibung der Übung 1",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Übung 2",
+                    "description": "Beschreibung der Übung 2",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Übung 3",
+                    "description": "Beschreibung der Übung 3",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Klausur",
+                    "description": "Beschreibung der Klausur",
+                    "maxPoints": 70,
+                    "pointsNeeded": 35
+                }
+            ],
+            "students": [
+                {
+                    "id": 1910247006,
+                    "points": [8,9,5,60]
+                },
+                {
+                    "id": 1910247007,
+                    "points": [1,2,3,30]
+                },
+                {
+                    "id": 1910247007,
+                    "points": [10,10,10,40]
+                }
+            ]
+        },
+        {
+            "name": "Class 3",
+            "id": "c3",
+            "semester": "WS2020",
+            "course": "ITB",
+            "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+            "content": "Inhalt der Lehrveranstaltung",
+            "grading": [
+                {
+                    "min": 0,
+                    "max": 49.9,
+                    "grade": 5
+                },
+                {
+                    "min": 50,
+                    "max": 62.9,
+                    "grade": 4
+                },
+                {
+                    "min": 63,
+                    "max": 74.9,
+                    "grade": 3
+                },
+                {
+                    "min": 75,
+                    "max": 86.9,
+                    "grade": 2
+                },
+                {
+                    "min": 87,
+                    "max": 100,
+                    "grade": 1
+                }
+            ],
+            "tasks": [
+                {
+                    "name": "Übung 1",
+                    "description": "Beschreibung der Übung 1",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Übung 2",
+                    "description": "Beschreibung der Übung 2",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Übung 3",
+                    "description": "Beschreibung der Übung 3",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Klausur",
+                    "description": "Beschreibung der Klausur",
+                    "maxPoints": 70,
+                    "pointsNeeded": 35
+                }
+            ],
+            "students": [
+                {
+                    "id": 1910247006,
+                    "points": [8,9,5,60]
+                },
+                {
+                    "id": 1910247007,
+                    "points": [1,2,3,30]
+                },
+                {
+                    "id": 1910247007,
+                    "points": [10,10,10,40]
+                }
+            ]
+        },
+        {
+            "name": "Class 3",
+            "id": "c3",
+            "semester": "WS2020",
+            "course": "ITB",
+            "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+            "content": "Inhalt der Lehrveranstaltung",
+            "grading": [
+                {
+                    "min": 0,
+                    "max": 49.9,
+                    "grade": 5
+                },
+                {
+                    "min": 50,
+                    "max": 62.9,
+                    "grade": 4
+                },
+                {
+                    "min": 63,
+                    "max": 74.9,
+                    "grade": 3
+                },
+                {
+                    "min": 75,
+                    "max": 86.9,
+                    "grade": 2
+                },
+                {
+                    "min": 87,
+                    "max": 100,
+                    "grade": 1
+                }
+            ],
+            "tasks": [
+                {
+                    "name": "Übung 1",
+                    "description": "Beschreibung der Übung 1",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Übung 2",
+                    "description": "Beschreibung der Übung 2",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Übung 3",
+                    "description": "Beschreibung der Übung 3",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Klausur",
+                    "description": "Beschreibung der Klausur",
+                    "maxPoints": 70,
+                    "pointsNeeded": 35
+                }
+            ],
+            "students": [
+                {
+                    "id": 1910247006,
+                    "points": [8,9,5,60]
+                },
+                {
+                    "id": 1910247007,
+                    "points": [1,2,3,30]
+                },
+                {
+                    "id": 1910247007,
+                    "points": [10,10,10,40]
+                }
+            ]
+        },
+        {
+            "name": "Class 3",
+            "id": "c3",
+            "semester": "WS2020",
+            "course": "ITB",
+            "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+            "content": "Inhalt der Lehrveranstaltung",
+            "grading": [
+                {
+                    "min": 0,
+                    "max": 49.9,
+                    "grade": 5
+                },
+                {
+                    "min": 50,
+                    "max": 62.9,
+                    "grade": 4
+                },
+                {
+                    "min": 63,
+                    "max": 74.9,
+                    "grade": 3
+                },
+                {
+                    "min": 75,
+                    "max": 86.9,
+                    "grade": 2
+                },
+                {
+                    "min": 87,
+                    "max": 100,
+                    "grade": 1
+                }
+            ],
+            "tasks": [
+                {
+                    "name": "Übung 1",
+                    "description": "Beschreibung der Übung 1",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Übung 2",
+                    "description": "Beschreibung der Übung 2",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Übung 3",
+                    "description": "Beschreibung der Übung 3",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Klausur",
+                    "description": "Beschreibung der Klausur",
+                    "maxPoints": 70,
+                    "pointsNeeded": 35
+                }
+            ],
+            "students": [
+                {
+                    "id": 1910247006,
+                    "points": [8,9,5,60]
+                },
+                {
+                    "id": 1910247007,
+                    "points": [1,2,3,30]
+                },
+                {
+                    "id": 1910247007,
+                    "points": [10,10,10,40]
+                }
+            ]
+        },{
+            "name": "Class 3",
+            "id": "c3",
+            "semester": "WS2020",
+            "course": "ITB",
+            "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+            "content": "Inhalt der Lehrveranstaltung",
+            "grading": [
+                {
+                    "min": 0,
+                    "max": 49.9,
+                    "grade": 5
+                },
+                {
+                    "min": 50,
+                    "max": 62.9,
+                    "grade": 4
+                },
+                {
+                    "min": 63,
+                    "max": 74.9,
+                    "grade": 3
+                },
+                {
+                    "min": 75,
+                    "max": 86.9,
+                    "grade": 2
+                },
+                {
+                    "min": 87,
+                    "max": 100,
+                    "grade": 1
+                }
+            ],
+            "tasks": [
+                {
+                    "name": "Übung 1",
+                    "description": "Beschreibung der Übung 1",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Übung 2",
+                    "description": "Beschreibung der Übung 2",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Übung 3",
+                    "description": "Beschreibung der Übung 3",
+                    "maxPoints": 10,
+                    "pointsNeeded": 0
+                },
+                {
+                    "name": "Klausur",
+                    "description": "Beschreibung der Klausur",
+                    "maxPoints": 70,
+                    "pointsNeeded": 35
+                }
+            ],
+            "students": [
+                {
+                    "id": 1910247006,
+                    "points": [8,9,5,60]
+                },
+                {
+                    "id": 1910247007,
+                    "points": [1,2,3,30]
+                },
+                {
+                    "id": 1910247007,
+                    "points": [10,10,10,40]
+                }
+            ]
+        }
+    ]
+}

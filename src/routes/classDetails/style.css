@@ -1,0 +1,8 @@
+.class_detail {
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    flex-grow: 1;
+    width: 100%;
+    padding: 1rem;
+}

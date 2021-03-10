@@ -1,0 +1,23 @@
+.class_entry {
+    display: grid;
+    grid-template-rows: 3rem 1fr;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    flex-grow: 1;
+    width: 100%;
+    padding: .5rem;
+    border: 2px solid black;
+}
+
+.class_entry > * {
+    display: flex;
+    flex: 1 0 content;
+    align-self: center;
+    justify-self: left;
+}
+
+.class_entry a {
+    font-size: 1.25rem;
+}
